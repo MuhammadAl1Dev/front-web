@@ -1,0 +1,157 @@
+.main_box{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    align-items: center;
+    height: 70px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+.mini_box_1{
+    display: flex;
+    justify-content: space-between;
+}
+#homeLink_box{
+    margin-right: 50px;
+}
+
+#homeLink_box h3{
+    color: black;
+    font-weight: 800 !important;
+    padding: 5px;
+}
+#homeLink_box h3 span{
+    color: #1d4ed8;
+}
+#homeLink_box h3:hover{
+    color: #1d4ed8;
+}
+.mini_box_links{
+    display: flex;
+    justify-content: space-between;
+}
+.mini_box_links h3{
+    color: black;
+    font-weight: 400;
+    transition: all 0.4s;
+    padding: 5px;
+}
+.mini_box_links h3:hover{
+    color: #1d4ed8;
+    transition: all 0.5s;
+}
+
+#uzb_link{
+    padding: 1px;
+    border-radius: 5px;
+    width: 50%;
+    transform-origin: 50% 50%;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+#uzb_link_div h3:hover + #uzb_link{
+    background-color: #1d4ed8 !important;
+    width: 100%;
+    transition: all 0.3s;
+    transform: scaleX(1);
+}
+#jahon_link_div h3:hover{
+    color: #1d4ed8;
+    transition: all 0.5s;
+}
+#jah_link{
+    padding: 1px;
+    border-radius: 5px;
+    width: 50%;
+    transform-origin: 50% 50%;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+} 
+#jahon_link_div h3:hover + #jah_link{
+    background-color: #1d4ed8 !important;
+    width: 100%;
+    transition: all 0.3s;
+    transform: scaleX(1);
+}
+#fan_link_div h3:hover{
+    color: #1d4ed8;
+    transition: all 0.5s;
+}
+#fan_link{
+    padding: 1px;
+    border-radius: 5px;
+    width: 50%;
+    transform-origin: 50% 50%;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+} 
+#fan_link_div h3:hover + #fan_link{
+    background-color: #1d4ed8 !important;
+    width: 100%;
+    transition: all 0.3s;
+    transform: scaleX(1);
+}
+
+#sport_link_div h3:hover{
+    color: #1d4ed8;
+    transition: all 0.5s;
+}
+#sport_link{
+    padding: 1px;
+    border-radius: 5px;
+    width: 50%;
+    transform-origin: 50% 50%;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+} 
+#sport_link_div h3:hover + #sport_link{
+    background-color: #1d4ed8 !important;
+    width: 100%;
+    transition: all 0.3s;
+    transform: scaleX(1);
+}
+
+
+.search_box{
+    align-items: center;
+    position: relative;
+}
+
+.search_input{
+    height: 38px;
+    width: 100px;
+    position: absolute;
+    right: 40px;
+    outline: none;
+    font-size: 16px;
+    text-indent: 15px;
+    top: 1px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-weight: 100 !important;
+    border-right: none;
+    border-top: 0.5px solid #4b5563;
+    border-left: 0.5px solid #4b5563;
+    border-bottom: 0.5px solid #4b5563;
+    color: #52525b;
+    transition: all 0.5s;
+}
+.search_input:focus{
+    width: 400px;
+    transition: all 0.5s;
+}
+.search_input:focus + #search_icon{
+    color: #1d4ed8;
+}
+#search_icon{
+    top: 0px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgba(192, 192, 192, 0.593);
+    padding: 6px;
+    font-size: 28px;
+    transition: all 0.5s;
+}
+#search_icon:hover{
+    transform: rotate(80deg);
+    transition: all 0.5s;
+}
